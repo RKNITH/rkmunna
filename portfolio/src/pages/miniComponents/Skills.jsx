@@ -12,7 +12,7 @@ const Skills = () => {
         //   { withCredentials: true }
         // );
 
-        .get("http://localhost:4000/api/v1/skill/getall", { withCredentials: true })
+        .get("https://raviranjan.onrender.com/api/v1/skill/getall", { withCredentials: true })
       setSkills(data.skills);
     };
     getMySkills();

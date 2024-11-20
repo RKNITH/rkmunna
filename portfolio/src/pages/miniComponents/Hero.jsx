@@ -23,7 +23,7 @@ const Hero = () => {
         //   { withCredentials: true }
         // );
 
-        .get("http://localhost:4000/api/v1/user/portfolio/me", { withCredentials: true })
+        .get("https://raviranjan.onrender.com/api/v1/user/portfolio/me", { withCredentials: true })
       setUser(data.user);
     };
     getMyProfile();

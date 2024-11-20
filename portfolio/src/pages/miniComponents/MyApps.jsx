@@ -12,7 +12,7 @@ const MyApps = () => {
   //       //   { withCredentials: true }
   //       // );
 
-  //       .get("http://localhost:4000/api/v1/project/getall", { withCredentials: true })
+  //       .get("https://raviranjan.onrender.com/api/v1/project/getall", { withCredentials: true })
   //     setApps(data.softwareApplications);
   //   };
   //   getMyApps();
@@ -24,7 +24,7 @@ const MyApps = () => {
     const getMyApps = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4000/api/v1/softwareapplication/getall",
+          "https://raviranjan.onrender.com/api/v1/softwareapplication/getall",
           { withCredentials: true }
         );
         console.log("Fetched Apps:", data.softwareApplications);
